@@ -20,3 +20,4 @@ public class ThemeList {
         return themes.stream().collect(Collectors.toMap(Theme::getName, Function.identity()));
     }
 }
+
